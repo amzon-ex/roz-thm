@@ -7,9 +7,9 @@
         "jupyterlab",
         "jupyterlab-extension"
     ],
-    "homepage": "",
+    "homepage": "https://github.com/amzon-ex/roz-thm/",
     "bugs": {
-        "url": "/issues"
+        "url": "https://github.com/amzon-ex/roz-thm//issues"
     },
     "license": "BSD-3-Clause",
     "author": {
@@ -24,7 +24,7 @@
     "types": "lib/index.d.ts",
     "repository": {
         "type": "git",
-        "url": ".git"
+        "url": "https://github.com/amzon-ex/roz-thm/.git"
     },
     "scripts": {
         "build": "jlpm build:lib && jlpm build:labextension:dev",

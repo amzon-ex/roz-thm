@@ -1,6 +1,6 @@
 # roz_thm
 
-[![Github Actions Status](/workflows/Build/badge.svg)](/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/amzon-ex/roz-thm//workflows/Build/badge.svg)](https://github.com/amzon-ex/roz-thm//actions/workflows/build.yml)
 A JupyterLab theme.
 
 ## Requirements

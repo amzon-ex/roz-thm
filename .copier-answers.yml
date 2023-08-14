@@ -9,6 +9,6 @@ kind: theme
 labextension_name: roz-thm
 project_short_description: A JupyterLab theme.
 python_name: roz_thm
-repository: ''
+repository: https://github.com/amzon-ex/roz-thm/
 test: false
 
