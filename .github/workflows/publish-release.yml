@@ -36,9 +36,9 @@ jobs:
         env:
           # The following are needed if you use legacy PyPI set up
           PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
-          PYPI_TOKEN_MAP: ${{ secrets.PYPI_TOKEN_MAP }}
+          # PYPI_TOKEN_MAP: ${{ secrets.PYPI_TOKEN_MAP }}
           TWINE_USERNAME: __token__
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          # NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           TWINE_REPOSITORY_URL: https://test.pypi.org/legacy/
         uses: jupyter-server/jupyter-releaser/.github/actions/finalize-release@v2
         with:
