@@ -64,7 +64,7 @@ build_dir = "roz_thm/labextension"
 version_cmd = "hatch version"
 
 [tool.jupyter-releaser]
-skip = ["check-npm"]
+skip = ["build-npm"]
 
 [tool.jupyter-releaser.hooks]
 before-build-npm = [
@@ -72,7 +72,12 @@ before-build-npm = [
     "jlpm",
     "jlpm build:prod"
 ]
-before-build-python = ["jlpm clean:all"]
+before-build-python = [
+    "python -m pip install 'jupyterlab>=4.0.0,<5'",
+    "jlpm",
+    "jlpm build:prod"
+    "jlpm clean:all"
+]
 
 [tool.check-wheel-contents]
 ignore = ["W002"]
