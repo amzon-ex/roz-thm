@@ -64,7 +64,7 @@ build_dir = "roz_thm/labextension"
 version_cmd = "hatch version"
 
 [tool.jupyter-releaser]
-skip = ["build-npm"]
+skip = ["check-npm"]
 
 [tool.jupyter-releaser.hooks]
 before-build-npm = [
